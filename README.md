@@ -3,3 +3,4 @@
 
 ## Index
 1. Useful calculator (instead of using eval, I created the function) with interface. Calculator
+2. Animated binary calculator (shows how the progress is done and use console colors). Animated binary calculator
