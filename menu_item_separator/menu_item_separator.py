@@ -1,5 +1,6 @@
+# Necesita una cantidad considerable de correcciones para que devuelva EXACTAMENTE la longitud de lína que quiero
 def menu_item_separator(nombres, precios, sep):
-    sep = int(sep) - 12
+    sep = int(sep) - 2*len(str(max(list(map(int, precios))))) - 4
     res = []
     f = ""
     aux = 0
@@ -8,7 +9,7 @@ def menu_item_separator(nombres, precios, sep):
         if nombres[i][0] == "-": nombres[i] = nombres[i][1:].strip()
         f = nombres[i][0].upper() + nombres[i][1:].casefold() + "."*(sep - len(nombres[i])+len(precios[i])+aux) + "$" + precios[i] + ".00"
         res.append(f)
-    print("|||||||||||||||||||||||||||||||||||||||||")
+    print("|||||||||||||||||||||||||||||||||||||||||") # Y quiero que esto se ajuste a la longitud máxima sep
     return "\n".join(res)
 
 def start():
