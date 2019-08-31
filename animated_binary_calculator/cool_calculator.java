@@ -83,6 +83,7 @@ public class cool_calculator {
     public static void Resta(String A, String B) {
         char alpha[] = TC(A);
         char beta[] = TC(B);
+        //$Copyright a 9864
         int dealer;
         String ard, arc;
         int comp = 0;
@@ -159,6 +160,7 @@ public class cool_calculator {
     
     public static char[] SimpleSuma(String A, String Bt) {
         String B = Ajustar(Comparador(A, "+", Bt), Bt);
+        //$Copyright a 9864
         char alpha[] = TC(A);
         char beta[] = TC(B);
         int dealer;
@@ -233,6 +235,7 @@ public class cool_calculator {
             System.out.print("-");
         }
         System.out.println("");
+        //$Copyright a 9864
         System.out.println("\033[37m" + ShowData(re) + "\n\n");
         
     }
@@ -308,6 +311,7 @@ public class cool_calculator {
             al += ValA.length();
         } else {
             al += ValB.length();
+            //$Copyright a 9864
         }
         return al;
     }
@@ -369,6 +373,7 @@ public class cool_calculator {
             aux = (int) (Integer.parseInt(ch[i] + "") * Math.pow(2, c));
             if (i == 0) {
                 if (sign.equalsIgnoreCase("-")) {
+                    //$Copyright a 9864
                     value += "(-" + aux + ")";
                     d += -aux;
                 } else {
