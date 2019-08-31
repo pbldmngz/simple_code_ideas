@@ -41,5 +41,8 @@ Press anything besides Y to exit.
 ### Now what?
 * Maybe if I want I'll implement some import from a plain text file or excel.
 * Maybe I'll write in a .txt file the result.
-* Maybe you can import from a plain text file without structure based on *"This is the title so it has no numbers", "Parentheses are used as a description so ill format it too", "Generally numbers in a menu are prices and has the currency close".*
-But all this are only ideas, it isn't in my plans to actually implement them to this full-functiona-i.don't.need.more program.
+* Maybe you can import from a plain text file without structure based on:
+  * "This is the title so it has no numbers"
+  * "Parentheses are used as a description so ill format it too"
+  * "Generally numbers in a menu are prices and has the currency close".
+But all this are only ideas, it isn't in my plans to actually implement them to this *full-functional-I.don't.need.more* program.
