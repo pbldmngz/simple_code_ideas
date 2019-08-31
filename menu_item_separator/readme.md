@@ -45,4 +45,5 @@ Press anything besides Y to exit.
   * "This is the title so it has no numbers"
   * "Parentheses are used as a description so ill format it too"
   * "Generally numbers in a menu are prices and has the currency close".
-But all this are only ideas, it isn't in my plans to actually implement them to this *full-functional-I.don't.need.more* program.
+
+But all this are only ideas, it isn't in my plans to actually implement them to this **full-functional-I.don't.need.more** program.
