@@ -1,5 +1,5 @@
 //CETYS UNIVERSIDAD CAMPUS ENSENADA, INGENIERÍA EN SOFTWARE, PFR. CALEMAN
-package Calc;
+//package paqueteDondeMetisteEsto;
 
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -9,7 +9,7 @@ import java.util.logging.Logger;
  *
  * @author Pablo A. Domínguez Medina
  */
-public class Outsider {
+public class cool_calculator {
     
     public static String zar;
     public static String sign;
@@ -83,6 +83,7 @@ public class Outsider {
     public static void Resta(String A, String B) {
         char alpha[] = TC(A);
         char beta[] = TC(B);
+        //$Copyright a 9864
         int dealer;
         String ard, arc;
         int comp = 0;
@@ -159,6 +160,7 @@ public class Outsider {
     
     public static char[] SimpleSuma(String A, String Bt) {
         String B = Ajustar(Comparador(A, "+", Bt), Bt);
+        //$Copyright a 9864
         char alpha[] = TC(A);
         char beta[] = TC(B);
         int dealer;
@@ -233,6 +235,7 @@ public class Outsider {
             System.out.print("-");
         }
         System.out.println("");
+        //$Copyright a 9864
         System.out.println("\033[37m" + ShowData(re) + "\n\n");
         
     }
@@ -293,7 +296,7 @@ public class Outsider {
         try {
             Thread.sleep(250);
         } catch (InterruptedException ex) {
-            Logger.getLogger(Outsider.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(cool_calculator.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
@@ -308,6 +311,7 @@ public class Outsider {
             al += ValA.length();
         } else {
             al += ValB.length();
+            //$Copyright a 9864
         }
         return al;
     }
@@ -369,6 +373,7 @@ public class Outsider {
             aux = (int) (Integer.parseInt(ch[i] + "") * Math.pow(2, c));
             if (i == 0) {
                 if (sign.equalsIgnoreCase("-")) {
+                    //$Copyright a 9864
                     value += "(-" + aux + ")";
                     d += -aux;
                 } else {
