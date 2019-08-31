@@ -1,4 +1,5 @@
 //CETYS UNIVERSIDAD CAMPUS ENSENADA, INGENIERÍA EN SOFTWARE, PFR. CALEMAN
+//package paqueteDondeMetisteEsto;
 
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -292,7 +293,7 @@ public class cool_calculator {
         try {
             Thread.sleep(250);
         } catch (InterruptedException ex) {
-            Logger.getLogger(Outsider.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(cool_calculator.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
