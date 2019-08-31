@@ -1,5 +1,4 @@
 //CETYS UNIVERSIDAD CAMPUS ENSENADA, INGENIERÍA EN SOFTWARE, PFR. CALEMAN
-package Calc;
 
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -9,7 +8,7 @@ import java.util.logging.Logger;
  *
  * @author Pablo A. Domínguez Medina
  */
-public class Outsider {
+public class cool_calculator {
     
     public static String zar;
     public static String sign;
