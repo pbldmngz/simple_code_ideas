@@ -9,7 +9,7 @@ local presets = {
 }
 
 
-function compensateRecoil()
+function autoClicker()
     MoveMouseRelative(presets[a][1], presets[a][2])
     Sleep(presets[a][3])
 end
@@ -39,7 +39,7 @@ function OnEvent(event, arg)
     --execute script--
     if (event == "MOUSE_BUTTON_PRESSED" and arg == 1) then
         repeat
-            compensateRecoil()
+            autoClicker()
         until not IsMouseButtonPressed(1)
     end
 end

@@ -16,7 +16,7 @@ local tempo_flatline = {
     [2] = {0, 105, 43, 62, 37, 61, 41, 22, 6, -19, 13, 41, 12, 20, -7, -9, 4, 38, 29, 36, 2, 6, 39, 11, 6, 16, 12, -24, 25, 28},
 }
 
-function compensateRecoil()
+function autoClicker()
     n = n + 1
     MoveMouseRelative(tempo_flatline[1][n] * x, tempo_flatline[2][n] * y)
     Sleep(100)
@@ -51,7 +51,7 @@ function OnEvent(event, arg)
     if (event == "MOUSE_BUTTON_PRESSED" and arg == 1 and b == true) then
         n = 0
         repeat
-            compensateRecoil()
+            autoClicker()
         until not IsMouseButtonPressed(1)
     end
 end
