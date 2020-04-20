@@ -6,6 +6,7 @@ function OnEvent(event, arg)
         if event == "MOUSE_BUTTON_PRESSED" then
             doTheThing = true
 	if (doTheThing) then
+		PressAndReleaseKey("escape")
 		MoveMouseRelative(0, 100)
 		MoveMouseRelative(0, 100)
 		Sleep(25)
