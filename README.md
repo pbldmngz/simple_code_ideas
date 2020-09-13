@@ -1,4 +1,4 @@
-# random_projects
+# Random stuff
 > This is just a lot of stuff Ill be creating to improve myself or to lose time instead of studiying for my 3 exams dated tomorrow.
 
 ## Index
