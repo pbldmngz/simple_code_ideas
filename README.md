@@ -1,5 +1,5 @@
 # Random stuff
-> This is just a lot of stuff Ill be creating to improve myself or to lose time instead of studiying for my 3 exams dated tomorrow.
+> This is just a lot of programs Ill be creating to improve myself or to lose time instead of studiying for my 3 exams dated tomorrow.
 
 ## Index
 1. Useful calculator (instead of using eval, I created the function) with interface.
