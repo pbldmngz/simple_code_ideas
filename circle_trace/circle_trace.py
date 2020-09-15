@@ -1,5 +1,4 @@
 import pyautogui as pg
-import json
 from time import sleep
 import math
 pi = math.pi
