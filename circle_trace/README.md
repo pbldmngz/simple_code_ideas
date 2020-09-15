@@ -8,7 +8,7 @@ Me di cuenta de que como siempre, tenemos limitaciones humanas y que mi pulso de
 -----
 
 ## Requisitos
-> Como este programa está hecho en Python 3, solo necesitas importar ```pyautogui```, para eso métete a consola como admin y escribe ```pip install pyautogui```, luego corre el programa.
+> Como este programa está hecho en Python 3, solo necesitas importar ```pyautogui``` (y obviamente, tener Python), para eso métete a consola como admin y escribe ```pip install pyautogui```, luego corre el programa.
 
 Para ejecutarlo tienes que abrir la consola y darle una entrada ```py circle_trace.py circle RADIO TEMPORIZADOR PRECISIÓN```
   * **RADIO** es el radio en píxeles
