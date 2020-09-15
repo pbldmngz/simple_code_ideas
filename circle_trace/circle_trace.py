@@ -14,7 +14,7 @@ def circle_rel(r,n=90):
     return arr
 
 def circle(r):
-    arr = circle_rel(250)
+    arr = circle_rel(r)
     for i in range(len(arr)):
         pg.moveRel(arr[i][0], arr[i][1], duration=0.1)
 
