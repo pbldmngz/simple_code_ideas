@@ -12,11 +12,13 @@ def circle_rel(r, n):
         arr.append([cir[i+1][0] - cir[i][0], cir[i+1][1] - cir[i][1]])
     return arr
 
-def circle(r, t=2, n=90):
+def circle(r, t=10, n=90):
     sleep(float(t))
     arr = circle_rel(int(r), int(n))
     for i in range(len(arr)):
         pg.moveRel(arr[i][0], arr[i][1], duration=0.1)
 
 if __name__ == '__main__':
-    globals()[sys.argv[1]](sys.argv[2], sys.argv[3], sys.argv[4])
+    if len(sys.argv) == 3: globals()[sys.argv[1]](sys.argv[2])
+    if len(sys.argv) == 4: globals()[sys.argv[1]](sys.argv[2], sys.argv[3])
+    if len(sys.argv) == 5: globals()[sys.argv[1]](sys.argv[2], sys.argv[3], sys.argv[4])
