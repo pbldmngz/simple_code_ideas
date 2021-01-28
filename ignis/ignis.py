@@ -7,13 +7,13 @@ temp = -1
 
 def press_hotkey(b):
     if b == 0:
-        keyboard.press_and_release('alt+1')
+        keyboard.press_and_release('ctrl+alt+shift+1')
     elif b == 1:
-        keyboard.press_and_release('alt+2')
+        keyboard.press_and_release('ctrl+alt+shift+2')
     elif b == 2:
-        keyboard.press_and_release('alt+3')
+        keyboard.press_and_release('ctrl+alt+shift+3')
     elif b == 3:
-        keyboard.press_and_release('alt+4')
+        keyboard.press_and_release('ctrl+alt+shift+4')
 
 def apply(vn, max, min, b):
     global bal
@@ -42,4 +42,4 @@ def print_sound(indata, outdata, frames, time, status):
     #print ("|" * int(volume_norm))
 
 with sd.Stream(callback=print_sound):
-    sd.sleep(100000)
+    sd.sleep(300000)
