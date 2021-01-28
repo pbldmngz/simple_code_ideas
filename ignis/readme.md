@@ -1,0 +1,1 @@
+Se pretende que este programa cambie entre escenas del OBS Studio basándose en el sonido del micrófono
