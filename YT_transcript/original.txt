@@ -1,0 +1,286 @@
+00:01
+mi nombre es felipe villamarín músico
+00:03
+fundador de rap y
+00:06
+en el 2015 empezamos a hacer rap y como
+00:10
+un intento nuestro de hacer la logística
+00:13
+del producto que ya teníamos que
+00:15
+vendíamos los mercados y empezamos con
+00:17
+una tiendita de barrio de 500 productos
+00:19
+podemos creciendo y fuimos creciendo se
+00:22
+le metimos restaurantes selectivos por
+00:24
+mercados con los personal shoppers que
+00:26
+son las personas que están en la compra
+00:28
+y súper hilarry poco a poco se fue
+00:31
+convirtiendo como el centro comercial de
+00:33
+la ciudad en tubul si somos un equipo
+00:35
+más de 200 desarrolladores nosotros
+00:39
+estamos en 5 países méxico colombia
+00:43
+brasil argentina y chile entonces tú
+00:47
+puedes pedir desde tu almuerzo a santos
+00:50
+supera las cositas que necesitas para
+00:53
+cenar pedir que te que te lleven una
+00:57
+encomienda de un lado a otro que te
+00:59
+simplemente te saque en efectivo del
+01:01
+cajero entonces estamos aquí para
+01:03
+hacerle la vida más fácil las personas
+01:06
+básicamente las necesidades de rapid son
+01:09
+bastante complejas son desafíos que a
+01:13
+nivel de implementación tecnológica son
+01:16
+muy particulares
+01:17
+mi nombre es alejandro comisario soy
+01:20
+bea' pide de voz e infraestructura
+01:22
+amazon web services en el caso nuestro
+01:24
+fue para nosotros coro porque nos
+01:27
+entrega todo el dulce de herramientas
+01:30
+que en un principio pensábamos que
+01:32
+necesitábamos sin tener que nosotros
+01:34
+concentrarnos en mantener
+01:36
+infraestructura o tener cualquier
+01:38
+mantenimiento relacionado a un data
+01:41
+center propio por ejemplo nos dimos
+01:42
+cuenta que a través de la competencia
+01:45
+que se encontraba en esos países
+01:46
+tenemos que impulsar un cambio profundo
+01:48
+y dejar de hacer algunas cosas como la
+01:50
+hacíamos en ese momento
+01:53
+amazon y xichú amazon are 10 y reglas de
+01:56
+auto skyline eran más que suficientes
+01:58
+para los países en los que estábamos
+02:00
+pero en la medida en la que fuimos
+02:02
+avanzando nos dimos cuenta que teníamos
+02:04
+que empezar a generar un proceso de
+02:06
+transformación profunda dentro de la
+02:08
+compañía ahí fue cuando empezamos a
+02:10
+arquitectura
+02:12
+a implementar microservicios ahí para
+02:14
+nosotros fue importantísimo el rol que
+02:17
+jugó amazon y si es el orquestador de
+02:20
+container para nosotros para empezar a
+02:22
+migrar partes del monolito a
+02:24
+microservicios y la verdad que su
+02:26
+integración con application nos va a
+02:27
+lanzar y la integración con service
+02:29
+discovery la verdad que para nosotros
+02:31
+fue importantísima para empezar a hacer
+02:33
+crecer esta parte de la infraestructura
+02:34
+que era realmente nueva y de la cual
+02:37
+íbamos aprendiendo constantemente
+02:38
+definitivamente
+02:40
+un proceso que se agilizó se agiliza y
+02:44
+nosotros necesitamos que se siga
+02:46
+agilizando es que la infraestructura
+02:48
+básicamente vibre al ritmo del negocio
+02:52
+significa que los equipos de desarrollo
+02:54
+que son los que básicamente materializan
+02:56
+las reglas de negocio en el software que
+02:58
+utilizan los usuarios no tengan que
+03:00
+depender del equipo de infraestructura
+03:02
+para poder mover escalar y shifter la
+03:06
+infraestructura necesaria para en ese
+03:08
+momento implementar nuevos ficheros o
+03:10
+básicamente darle vida a una nueva
+03:12
+vertical sino que rápido podía
+03:15
+materializar reglas de negocio a través
+03:16
+del software sin fricciones y
+03:18
+básicamente dándole mucho músculo de los
+03:20
+desarrolladores definitivamente para
+03:22
+nosotros el diferenciador fue time to
+03:24
+market rápido cuando salió acá en
+03:27
+colombia por primera vez la idea era
+03:29
+intentar de materializar las reglas de
+03:31
+negocio de ese momento lo más rápido
+03:33
+posible a través de la tecnología de
+03:34
+hecho rápida es una empresa de
+03:35
+tecnología entonces
+03:38
+todo el dulce que tiene disponible y de
+03:41
+oliva es y todas las herramientas que
+03:44
+pone a disposición para poder
+03:46
+materializar
+03:48
+reglas de negocio y solamente nosotros
+03:50
+tenemos que concentrar en el software
+03:52
+para nosotros fue game changer y pudimos
+03:55
+salir rapidísimo con la primera versión
+03:57
+de rápida al mercado nos pudimos
+03:59
+concentrar en lo que realmente nos
+04:00
+interesaba que era generar software para
+04:03
+salir con una primera versión y no
+04:05
+tenemos que preocupar en mantener
+04:07
+infraestructura en mantener nosotros
+04:09
+base de datos todas esas opciones manage
+04:11
+day w
+04:13
+las nosotros fueron importantísimas una
+04:15
+característica que no solamente me
+04:17
+sorprendió sino me sigue sorprendiendo y
+04:19
+sigue siendo realmente muy útil para
+04:21
+rapid es la capacidad de a través de la
+04:24
+exposición de las seis vías y de todo de
+04:27
+todas las herramientas de cloud dejarnos
+04:29
+elegir por ejemplo el orquestador de
+04:31
+infraestructura que más se adapta en
+04:33
+estas necesidades gracias a eso hoy
+04:35
+estamos pudiendo gozar los beneficios de
+04:38
+por ejemplo cuando tenemos que hacer
+04:40
+un rollup en un nuevo país crear un país
+04:43
+entero con lo complejo que eso es para
+04:47
+nosotros con la cantidad de distintas
+04:49
+herramientas que nosotros utilizamos
+04:50
+poder automatizar no solamente la
+04:53
+creación entera de un país sino conectar
+04:56
+partes realmente complejas entre ellas
+04:58
+como por ejemplo hacer un pp shipping
+05:02
+entre distintas account en distintas
+05:03
+regiones
+05:04
+creo que las interfaces y los
+05:06
+administradores no tienes son la
+05:09
+bastante información para el nuestro que
+05:12
+rápido las cosas que están pasando
+05:14
+y producción amazon web services nos
+05:17
+brinda nos brindó y muy probablemente
+05:20
+nos va a brindar la capacidad de hacer
+05:23
+este sueño realidad y de hacer que cada
+05:27
+nueva red en regla de negocio cada nueva
+05:29
+vertical cano fitur que rap y necesite
+05:32
+para mantenerse líder en toda
+05:34
+latinoamérica sea posible
