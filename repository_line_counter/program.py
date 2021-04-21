@@ -18,7 +18,7 @@ def counter(path, dotTypes):
         total += x
 
     print(counter)
-    print(f"Total lines of code: {total}")
+    print(f"\nTotal lines of code of your repository: {total}")
 
 def recSearch(path, dotTypes):
     pathArr = []
@@ -31,6 +31,6 @@ def recSearch(path, dotTypes):
     return pathArr
 
 #dotTypes = ["py", "pyw", "css", "txt", "js", "xml", "xlst", "html", "md", "ino"]
-dotTypes = ["py", "pyw"]
-counter(r"C:\Users\coffe\Documents\GitHub\Milwaukee", dotTypes)
+dotTypes = ["css", "js"]
+counter(r"C:\Users\coffe\Documents\GitHub\GST_appweb\src", dotTypes)
 #print(recSearch(r"C:\Users\coffe\Documents\GitHub\simple_projects"))
