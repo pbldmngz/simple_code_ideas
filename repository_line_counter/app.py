@@ -31,6 +31,6 @@ def recSearch(path, dotTypes):
     return pathArr
 
 #dotTypes = ["py", "pyw", "css", "txt", "js", "xml", "xlst", "html", "md", "ino"]
-dotTypes = ["css", "js"]
-counter(r"C:\Users\coffe\Documents\GitHub\GST_appweb\src", dotTypes)
+dotTypes = ["html", "js", "css"]
+counter(r"C:\\Users\\coffe\\Documents\\GitHub\\GST_appweb\\src", dotTypes)
 #print(recSearch(r"C:\Users\coffe\Documents\GitHub\simple_projects"))
